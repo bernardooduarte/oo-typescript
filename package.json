@@ -1,0 +1,21 @@
+{
+  "name": "banco-de-dados-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "jest --watchAll --coverage",
+    "generate": "ts-node src/gerador_arquivos.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/faker": "^6.6.9",
+    "@types/node": "^20.9.0",
+    "faker": "^5.5.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
